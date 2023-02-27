@@ -58,6 +58,6 @@ const dishSchema = new Schema({
 },{
     timestamps : true
 });
-var Dishes = mongoose.model("Dish", dishSchema);
+const Dishes = mongoose.model("Dish", dishSchema);
 
 module.exports = Dishes;
